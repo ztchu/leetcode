@@ -1,27 +1,20 @@
 <Project version="3.0">
-<Name>lengthOfLongestSubstring</Name>
+<Name>GetMedian</Name>
 <Type>CUI</Type>
-<TargetName>lengthOfLongestSubstring</TargetName>
+<TargetName>GetMedian</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>substring.cpp</File>
+	<File>median.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="9" x="14" y="21">substring.cpp</Attribute>
+<Attribute topline="8" x="23" y="21">median.cpp</Attribute>
 <FolderState>111</FolderState>
-<Breakpoint>
-	<File>substring.cpp</File>
-	<Line>28</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Watch name="s[j]"/>
-<Watch name="s[i]"/>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>lengthOfLongestSubstring</TargetName>
+	<TargetName>GetMedian</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
