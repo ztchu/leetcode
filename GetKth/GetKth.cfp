@@ -1,20 +1,20 @@
 <Project version="3.0">
-<Name>GetMedian</Name>
+<Name>GetKth</Name>
 <Type>CUI</Type>
-<TargetName>GetMedian</TargetName>
+<TargetName>GetKth</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>median.cpp</File>
+	<File>GetKth.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="111" x="56" y="123">median.cpp</Attribute>
+<Attribute topline="2" x="22" y="53">GetKth.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>GetMedian</TargetName>
+	<TargetName>GetKth</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
