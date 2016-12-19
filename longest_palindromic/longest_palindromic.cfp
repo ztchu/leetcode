@@ -1,20 +1,20 @@
 <Project version="3.0">
-<Name>GetKth</Name>
+<Name>longest_palindromic</Name>
 <Type>CUI</Type>
-<TargetName>GetKth</TargetName>
+<TargetName>longest_palindromic</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>GetKth.cpp</File>
+	<File>palindromic.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="31" x="2" y="26">GetKth.cpp</Attribute>
+<Attribute topline="1" x="2" y="86">palindromic.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>GetKth</TargetName>
+	<TargetName>longest_palindromic</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>

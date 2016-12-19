@@ -11,14 +11,18 @@ int GetKth(vector<int> &veca, vector<int> &vecb, int k)
 	if (k > lena + lenb)
 		exit(EXIT_FAILURE);
 	
+	if (lena > lenb)
+	{
+		return GetKth(vecb, veca, k);
+	}
 	if (lena == 0)
 	{
 		return vecb[k - 1];
 	}
-	if (lenb == 0)
+	/*if (lenb == 0)
 	{
 		return veca[k - 1];
-	}
+	}*/
 	if (veca[lena / 2] > vecb[lenb / 2])
 	{
 		return GetKth(vecb, veca, k);
@@ -26,7 +30,6 @@ int GetKth(vector<int> &veca, vector<int> &vecb, int k)
 	
 	if (k <= lena / 2 + lenb / 2 + 1)
 	{
-		//vector<int> vecaa(veca.begin(), veca.end());
 		vector<int> vecbb(vecb.begin(), vecb.begin() + lenb / 2);
 		return GetKth(veca, vecbb, k);
 	}
@@ -36,6 +39,8 @@ int GetKth(vector<int> &veca, vector<int> &vecb, int k)
 		return GetKth(vecaa, vecb, k - lena / 2 - 1);
 	}
 }
+
+// http://blog.csdn.net/yutianzuijin/article/details/11499917
 
 int GetKthA(vector<int> &veca, vector<int> &vecb, int k)
 {
