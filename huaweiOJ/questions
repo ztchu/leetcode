@@ -1,0 +1,12 @@
+1）map<pair<string, int>, int> mat;
+iter = mat.find(pair<string, int>(str, num));  //程序在这里编译出错，这种用法的可行性存在疑问
+
+2>class Base
+{
+  public:
+  
+  private:
+  static const vector<int> m_price;
+  static const int arr[6];    //这个初始化比较容易
+};
+如何初始化m_price，这个问题还没有解决。
