@@ -1,8 +1,4 @@
 <Projects version="2.0">
 	<Project active="1">lengthOfLongestSubstring.cfp</Project>
 	<File active="1">substring.cpp</File>
-	<File active="0">C:\PROGRA~1\C-FREE~1\mingw\include\C__~1\348B92~1.5\iostream</File>
-	<File active="0">C:\PROGRA~1\C-FREE~1\mingw\include\C__~1\348B92~1.5\bits\allocator.h</File>
-	<File active="0">C:\PROGRA~1\C-FREE~1\mingw\include\C__~1\348B92~1.5\ext\new_allocator.h</File>
-	<File active="0">C:\PROGRA~1\C-FREE~1\mingw\include\C__~1\348B92~1.5\bits\stl_bvector.h</File>
 </Projects>
