@@ -19,12 +19,11 @@ public:
 	    }
 	    
 	    long long ans = 0;
-	    bool overFlow = false;
+	   // bool overFlow = false;
 	    for (int j = i, num = 0, len = str.length(); j < len; ++j)
 	    {
     		if (isdigit(str[j]))
     		{
-		    	//++num;
 		    	ans *= 10;
 		    	ans += str[j] - '0';
 		    	if (ans >= INT_MAX && !flag)
@@ -38,11 +37,6 @@ public:
 	    	{
 	    		break;
 	    	}
-		    /*if (num > 10)
-		    {
-    			overFlow = true;
-    			break;
-    		}*/
     	}
     	if (flag)
    		{
@@ -50,15 +44,7 @@ public:
     	}
     	else
    			return ans;
-    	/*if (flag && ans > 2147483648)
-    	if (flag)
-    	{
-	    	if (overFlow)
-	    		return -2147483648;
-    		else
-    			return 0 - ans;
-	    }*/
-	    return 0;
+	    //return 0;
     }
 };
 //const long long MAX_INT = 2147483647;

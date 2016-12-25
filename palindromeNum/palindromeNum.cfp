@@ -1,20 +1,19 @@
 <Project version="3.0">
-<Name>strToInt</Name>
+<Name>palindromeNum</Name>
 <Type>CUI</Type>
-<TargetName>strToInt</TargetName>
+<TargetName>palindromeNum</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>atoi.cpp</File>
+	<File>palindromeNum.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="32" x="8" y="47">atoi.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
-<Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>strToInt</TargetName>
+<Builder name="mingw5" type="MinGW" version="1.0" changed="1">
+	<TargetName>palindromeNum</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
