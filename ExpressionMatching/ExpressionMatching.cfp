@@ -1,20 +1,33 @@
 <Project version="3.0">
-<Name>palindromeNum</Name>
+<Name>ExpressionMatching</Name>
 <Type>CUI</Type>
-<TargetName>palindromeNum</TargetName>
+<TargetName>ExpressionMatching</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>palindromeNum.cpp</File>
+	<File>strMatching.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="1" x="26" y="15">palindromeNum.cpp</Attribute>
+<Attribute topline="62" x="2" y="94">strMatching.cpp</Attribute>
 <FolderState>111</FolderState>
+<Breakpoint>
+	<File>strMatching.cpp</File>
+	<Line>9</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Breakpoint>
+	<File>strMatching.cpp</File>
+	<Line>49</Line>
+	<Condition></Condition>
+</Breakpoint>
+<Watch name="*s"/>
+<Watch name="p"/>
+<Watch name="s"/>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>palindromeNum</TargetName>
+	<TargetName>ExpressionMatching</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>

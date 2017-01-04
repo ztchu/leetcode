@@ -6,6 +6,8 @@ class Solution {
 public:
     bool isPalindrome(int x) {
     	int val = x;
+    	if (x < 0)
+    		val = 0 - x;
         int ans = 0;
         while (val)
         {
@@ -33,5 +35,5 @@ int main()
 			cout << "false" << endl;
 		}
 	}*/
-	cout << -20 / 10 << endl;
+	//cout << -20 / 10 << endl;
 }
