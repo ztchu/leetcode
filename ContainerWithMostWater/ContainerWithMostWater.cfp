@@ -1,34 +1,20 @@
 <Project version="3.0">
-<Name>ExpressionMatching</Name>
+<Name>ContainerWithMostWater</Name>
 <Type>CUI</Type>
-<TargetName>ExpressionMatching</TargetName>
+<TargetName>ContainerWithMostWater</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>strMatching.cpp</File>
+	<File>mostWater.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="16" x="11" y="33">strMatching.cpp</Attribute>
+<Attribute topline="19" x="20" y="36">mostWater.cpp</Attribute>
 <FolderState>111</FolderState>
-<Breakpoint>
-	<File>strMatching.cpp</File>
-	<Line>9</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>strMatching.cpp</File>
-	<Line>48</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Watch name="*s"/>
-<Watch name="p"/>
-<Watch name="s"/>
-<Watch name="*p"/>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>ExpressionMatching</TargetName>
+	<TargetName>ContainerWithMostWater</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>

@@ -1,34 +1,19 @@
 <Project version="3.0">
-<Name>ExpressionMatching</Name>
+<Name>IntegerToRoman</Name>
 <Type>CUI</Type>
-<TargetName>ExpressionMatching</TargetName>
+<TargetName>IntegerToRoman</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>strMatching.cpp</File>
+	<File>IntegerToRoman.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="16" x="11" y="33">strMatching.cpp</Attribute>
 <FolderState>111</FolderState>
-<Breakpoint>
-	<File>strMatching.cpp</File>
-	<Line>9</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Breakpoint>
-	<File>strMatching.cpp</File>
-	<Line>48</Line>
-	<Condition></Condition>
-</Breakpoint>
-<Watch name="*s"/>
-<Watch name="p"/>
-<Watch name="s"/>
-<Watch name="*p"/>
 <DefConfig>mingw5</DefConfig>
-<Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>ExpressionMatching</TargetName>
+<Builder name="mingw5" type="MinGW" version="1.0" changed="1">
+	<TargetName>IntegerToRoman</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
