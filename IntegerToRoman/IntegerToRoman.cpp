@@ -9,7 +9,8 @@ public:
     string intToRoman(int num) {
     	int flag = 1;
     	string ans("");
-    	
+    	if (num < 1 || num > 3999)
+    		return ans;
         while (num != 0)
         {
         	ans = intToRoman(num % 10, flag) + ans;

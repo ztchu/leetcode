@@ -1,20 +1,25 @@
 <Project version="3.0">
-<Name>IntegerToRoman</Name>
+<Name>RomanToInteger</Name>
 <Type>CUI</Type>
-<TargetName>IntegerToRoman</TargetName>
+<TargetName>RomanToInteger</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>IntegerToRoman.cpp</File>
+	<File>romanToInteger.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="47" x="6" y="58">IntegerToRoman.cpp</Attribute>
+<Attribute topline="5" x="20" y="21">romanToInteger.cpp</Attribute>
 <FolderState>111</FolderState>
+<Breakpoint>
+	<File>romanToInteger.cpp</File>
+	<Line>15</Line>
+	<Condition></Condition>
+</Breakpoint>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>IntegerToRoman</TargetName>
+	<TargetName>RomanToInteger</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
