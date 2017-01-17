@@ -1,20 +1,20 @@
 <Project version="3.0">
-<Name>LongestCommonPrefix</Name>
+<Name>3sum</Name>
 <Type>CUI</Type>
-<TargetName>LongestCommonPrefix</TargetName>
+<TargetName>3sum</TargetName>
 <TargetType>exe</TargetType>
 <Folder name="Source Files">
-	<File>LongestCommonPrefix.cpp</File>
+	<File>3sum.cpp</File>
 </Folder>
 <Folder name="Header Files">
 </Folder>
 <Folder name="Other Files">
 </Folder>
-<Attribute topline="4" x="28" y="12">LongestCommonPrefix.cpp</Attribute>
+<Attribute topline="63" x="20" y="67">3sum.cpp</Attribute>
 <FolderState>111</FolderState>
 <DefConfig>mingw5</DefConfig>
 <Builder name="mingw5" type="MinGW" version="1.0">
-	<TargetName>LongestCommonPrefix</TargetName>
+	<TargetName>3sum</TargetName>
 	<TargetType>exe</TargetType>
 	<TargetDir>mingw5</TargetDir>
 	<InterimDir>mingw5</InterimDir>
